@@ -1,8 +1,8 @@
 const { KmsKeyringNode, encrypt, decrypt } = require("@aws-crypto/client-node");
 
-const generatorKeyId = "arn:aws:kms:ap-northeast-1:367206476735:key/6d8bb8dc-0f44-4210-a3dd-28aecae8ac57";
+const generatorKeyId = "arn:aws:kms:us-east-1:367206476735:key/551b591a-cf23-4a35-825f-a2421069a3b3";
 
-const keyIds = ["arn:aws:kms:ap-northeast-1:367206476735:key/4e85c469-9ed8-4eea-85fc-256ee780ea61"];
+const keyIds = ["arn:aws:kms:us-east-1:367206476735:key/c1cd3e8c-3518-46c2-be15-a88fe4c18465"];
 
 const keyring = new KmsKeyringNode({ generatorKeyId, keyIds });
 
